@@ -1,0 +1,3366 @@
+{
+    "ObservationCollection": {
+        "member": [
+            {
+                "name": "ea-1040",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.7748,52.309399999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1040_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_5",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1040"
+            },
+            {
+                "name": "ea-1045",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.50873,52.3626,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1045_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_6",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1045"
+            },
+            {
+                "name": "ea-1201",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.95518,52.343800000000002,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1201_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_7",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1201"
+            },
+            {
+                "name": "ea-1413",
+                "samplingTime": {
+                    "duration": "P1113DT13H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-03-06T13:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-03-06T13:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.22664,52.325600000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1413_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_8",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1413"
+            },
+            {
+                "name": "ea-1548",
+                "samplingTime": {
+                    "duration": "P1252DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-07-23T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-07-23T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.33585,52.408099999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1548_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_9",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1548"
+            },
+            {
+                "name": "ea-1552",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.19384,52.541400000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1552_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_10",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1552"
+            },
+            {
+                "name": "ea-1712",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.32579,52.639099999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1712_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_11",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1712"
+            },
+            {
+                "name": "ea-1773",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.17488,52.222299999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1773_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_12",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1773"
+            },
+            {
+                "name": "ea-1814",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.55895,52.481400000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-1814_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_13",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-1814"
+            },
+            {
+                "name": "ea-3025",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.11908,52.701599999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3025_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_14",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3025"
+            },
+            {
+                "name": "ea-3057",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.57125,52.730499999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3057_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_15",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3057"
+            },
+            {
+                "name": "ea-3096",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.15281,52.615200000000002,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3096_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_16",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3096"
+            },
+            {
+                "name": "ea-3165",
+                "samplingTime": {
+                    "duration": "P1290DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.05065,52.399500000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3165_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_17",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3165"
+            },
+            {
+                "name": "ea-3167",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.99039,52.4193,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3167_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_18",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3167"
+            },
+            {
+                "name": "ea-3185",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.78459,52.407499999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3185_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_19",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3185"
+            },
+            {
+                "name": "ea-3201",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.53288,52.579300000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3201_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_20",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3201"
+            },
+            {
+                "name": "ea-3275",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.94454,52.635100000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3275_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_21",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3275"
+            },
+            {
+                "name": "ea-3288",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.69694,52.542099999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3288_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_22",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3288"
+            },
+            {
+                "name": "ea-3778",
+                "samplingTime": {
+                    "duration": "P1289DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-29T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-29T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.79653,52.688000000000002,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3778_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_23",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3778"
+            },
+            {
+                "name": "ea-3781",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.86667,52.490299999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3781_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_24",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3781"
+            },
+            {
+                "name": "ea-3782",
+                "samplingTime": {
+                    "duration": "P1290DT4H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2020-08-30T04:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T04:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.99328,52.736699999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-3782_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_25",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-3782"
+            },
+            {
+                "name": "ea-562992",
+                "samplingTime": {
+                    "duration": "P585DT9H",
+                    "beginPosition": "2017-02-17T00:00:00+00:00",
+                    "endPosition": "2018-09-25T09:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2018-09-25T09:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-2.2578,52.636600000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:ea-562992_P"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_26",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:ea-562992"
+            },
+            {
+                "name": "1S",
+                "samplingTime": {
+                    "duration": "P420DT1H",
+                    "beginPosition": "2018-08-21T17:05:00+00:00",
+                    "endPosition": "2019-10-15T18:05:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2019-10-15T18:05:00+00:00",
+                                "0.728460"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>-1.9127,52.4392,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:1S"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_54",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:1S"
+            },
+            {
+                "name": "KNMI-391",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.197,51.497999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-391"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_130",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-391"
+            },
+            {
+                "name": "KNMI-370",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.377,51.451000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-370"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_131",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-370"
+            },
+            {
+                "name": "KNMI-331",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.193,51.479999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-331"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_132",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-331"
+            },
+            {
+                "name": "KNMI-315",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.998,51.447000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-315"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_133",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-315"
+            },
+            {
+                "name": "KNMI-324",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.006,51.595999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-324"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_134",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-324"
+            },
+            {
+                "name": "KNMI-375",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.707,51.658999999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-375"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_135",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-375"
+            },
+            {
+                "name": "KNMI-380",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.762,50.905999999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-380"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_136",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-380"
+            },
+            {
+                "name": "KNMI-240",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.79,52.317999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-240"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_137",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-240"
+            },
+            {
+                "name": "KNMI-286",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>7.15,53.195999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-286"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_138",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-286"
+            },
+            {
+                "name": "KNMI-310",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.596,51.442,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-310"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_139",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-310"
+            },
+            {
+                "name": "KNMI-283",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.657,52.069000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-283"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_140",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-283"
+            },
+            {
+                "name": "KNMI-280",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.585,53.125,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-280"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_141",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-280"
+            },
+            {
+                "name": "KNMI-273",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.888,52.703000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-273"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_142",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-273"
+            },
+            {
+                "name": "KNMI-323",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.884,51.527000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-323"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_143",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-323"
+            },
+            {
+                "name": "KNMI-249",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.979,52.643999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-249"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_144",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-249"
+            },
+            {
+                "name": "KNMI-377",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.763,51.198,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-377"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_145",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-377"
+            },
+            {
+                "name": "KNMI-316",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.694,51.656999999999996,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-316"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_146",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-316"
+            },
+            {
+                "name": "KNMI-313",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.242,51.505000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-313"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_147",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-313"
+            },
+            {
+                "name": "KNMI-277",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.100000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.2,53.412999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-277"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_148",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-277"
+            },
+            {
+                "name": "KNMI-348",
+                "samplingTime": {
+                    "duration": "P607D",
+                    "beginPosition": "2019-01-01T00:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.926,51.969999999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-348"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_149",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-348"
+            },
+            {
+                "name": "KNMI-308",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.379,51.381,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-308"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_150",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-308"
+            },
+            {
+                "name": "KNMI-319",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.861,51.225999999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-319"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_151",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-319"
+            },
+            {
+                "name": "KNMI-215",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.437,52.140999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-215"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_152",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-215"
+            },
+            {
+                "name": "KNMI-278",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.259,52.435000000000002,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-278"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_153",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-278"
+            },
+            {
+                "name": "KNMI-285",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.399,53.575000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-285"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_154",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-285"
+            },
+            {
+                "name": "KNMI-343",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.313,51.893000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-343"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_155",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-343"
+            },
+            {
+                "name": "KNMI-225",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.555,52.463000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-225"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_156",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-225"
+            },
+            {
+                "name": "KNMI-330",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.122,51.991999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-330"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_157",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-330"
+            },
+            {
+                "name": "KNMI-267",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.100000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.384,52.898000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-267"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_158",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-267"
+            },
+            {
+                "name": "KNMI-269",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.52,52.457999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-269"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_159",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-269"
+            },
+            {
+                "name": "KNMI-344",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.447,51.962000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-344"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_160",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-344"
+            },
+            {
+                "name": "KNMI-275",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.873,52.055999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-275"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_161",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-275"
+            },
+            {
+                "name": "KNMI-235",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.781,52.927999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-235"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_162",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-235"
+            },
+            {
+                "name": "KNMI-257",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.603,52.506,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-257"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_163",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-257"
+            },
+            {
+                "name": "KNMI-290",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.891,52.274000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-290"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_164",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-290"
+            },
+            {
+                "name": "KNMI-350",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.936,51.566000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-350"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_165",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-350"
+            },
+            {
+                "name": "KNMI-251",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.346,53.392000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-251"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_166",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-251"
+            },
+            {
+                "name": "KNMI-210",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.43,52.170999999999999,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-210"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_167",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-210"
+            },
+            {
+                "name": "KNMI-248",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.174,52.634,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-248"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_168",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-248"
+            },
+            {
+                "name": "KNMI-279",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>6.574,52.75,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-279"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_169",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-279"
+            },
+            {
+                "name": "KNMI-258",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.401,52.649000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-258"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_170",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-258"
+            },
+            {
+                "name": "KNMI-356",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.146,51.859000000000002,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-356"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_171",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-356"
+            },
+            {
+                "name": "KNMI-209",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.518,52.465000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-209"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_172",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-209"
+            },
+            {
+                "name": "KNMI-265",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.274,52.130000000000003,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-265"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_173",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-265"
+            },
+            {
+                "name": "KNMI-312",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.622,51.768000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-312"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_174",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-312"
+            },
+            {
+                "name": "KNMI-340",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.342,51.448999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-340"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_175",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-340"
+            },
+            {
+                "name": "KNMI-260",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.18,52.100000000000001,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-260"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_176",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-260"
+            },
+            {
+                "name": "KNMI-270",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "0.000000"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>5.752,53.223999999999997,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-270"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_177",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-270"
+            },
+            {
+                "name": "KNMI-311",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>3.672,51.378999999999998,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-311"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_178",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-311"
+            },
+            {
+                "name": "KNMI-242",
+                "samplingTime": {
+                    "duration": "P600DT23H",
+                    "beginPosition": "2019-01-07T01:00:00+00:00",
+                    "endPosition": "2020-08-30T00:00:00+00:00"
+                },
+                "result": {
+                    "DataArray": {
+                        "elementCount": "2",
+                        "values": [
+                            [
+                                "2020-08-30T00:00:00+00:00",
+                                "None"
+                            ]
+                        ],
+                        "field": [
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                                "name": "Time"
+                            },
+                            {
+                                "definition": "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall",
+                                "name": "air-rainfall",
+                                "uom": "mm"
+                            }
+                        ]
+                    }
+                },
+                "featureOfInterest": {
+                    "geom": "<gml:Point srsName='EPSG:4326'><gml:coordinates>4.921,53.241,0</gml:coordinates></gml:Point>",
+                    "name": "urn:ogc:def:feature:x-istsos:1.0:Point:KNMI-242"
+                },
+                "observedProperty": {
+                    "component": [
+                        "urn:ogc:def:parameter:x-istsos:1.0:time:iso8601",
+                        "urn:ogc:def:parameter:x-istsos:1.0:meteo:air:rainfall"
+                    ],
+                    "CompositePhenomenon": {
+                        "id": "comp_179",
+                        "name": "timeSeriesOfObservations",
+                        "dimension": "2"
+                    }
+                },
+                "procedure": "urn:ogc:def:procedure:x-istsos:1.0:KNMI-242"
+            }
+        ],
+        "description": "ENSUF - FloodCitiSense",
+        "name": "ENSUF"
+    }
+}
