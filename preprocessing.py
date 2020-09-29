@@ -69,41 +69,37 @@ def processRain2018(folder_path):
         folder_path) if 'Auto' in filename])
     metro_list = sorted([filename for filename in os.listdir(
         folder_path) if 'Metro' in filename])
-    auto_df = pd.read_csv(
-        folder_path + auto_list[0], skipinitialspace=True, encoding='big5')
-    metro_df = pd.read_csv(
-        folder_path + metro_list[0], skipinitialspace=True, encoding='big5')
-    dtime_list = np.unique(auto_df['DTIME'].values)
-    dtime_list = np.append(
-        dtime_list, np.unique(metro_df['DTIME'].values))
-    dtime_list = np.unique(dtime_list)
-    curr_date, dt_candidates = "", []
-    for dt in dtime_list:
-        date = dt.split(' ')[0]
-        date = date.replace('-', '')
-        if curr_date == "":
-            curr_date = date
-            dt_candidates = [dt]
-            continue
-        if date == curr_date:
-            dt_candidates.append(dt)
-        else:
-            with open(export_path + curr_date + '.csv', 'w+') as f:
-                print('Processing ' + curr_date)
+    for auto_file, metro_file in zip(auto_list, metro_list):
+        auto_df = pd.read_csv(
+            folder_path + auto_file, skipinitialspace=True, encoding='big5')
+        metro_df = pd.read_csv(
+            folder_path + metro_file, skipinitialspace=True, encoding='big5')
+        dtime_list = auto_df['DTIME'].str.split(
+            ' ', expand=True).iloc[:, 0].unique()
+        print('Total days of %s are %s' %
+              (dtime_list[0][:-3], len(dtime_list)))
+        for date in dtime_list:
+            print('Processing ' + date)
+            # auto "DTIME","ID","CNAME","R"
+            auto_target = auto_df.loc[auto_df['DTIME'].str.contains(date)]
+            auto_target = auto_target.loc[auto_target['R'] > 0]
+            auto_station_list = auto_df.ID.unique()
+            # metro "DTIME","ST_NO","C_STATION","DD_RMN"
+            metro_target = metro_df.loc[metro_df['DTIME'].str.contains(date)]
+            metro_target = metro_target.loc[metro_target['DD_RMN'] > 0]
+            metro_station_list = metro_df.ST_NO.unique()
+            with open(export_path + date + '.csv', 'w+') as f:
                 f.write('date, station, PP01(mm)\n')
-                for dt_c in dt_candidates:
-                    hour = dt_c.split(' ')[1].split(':')[0]
-                    filter_df = auto_df.loc[auto_df['DTIME'] == dt_c, :]
-                    auto_df = auto_df.loc[auto_df['DTIME'] != dt_c, :]
-                    for _, row in filter_df.iterrows():
-                        f.write('%s,%s,%s\n' %
-                                (curr_date + hour, row[1], row[3]))
-                    filter_df = metro_df.loc[metro_df['DTIME'] == dt_c, :]
-                    metro_df = metro_df.loc[metro_df['DTIME'] != dt_c, :]
-                    for _, row in filter_df.iterrows():
-                        f.write('%s,%s,%s\n' %
-                                (curr_date + hour, row[1], row[3]))
-            curr_date = date
+                for sid in auto_station_list:
+                    station_rain_info = auto_target.loc[auto_target.ID == sid]
+                    rain = station_rain_info.iloc[:, -1].sum()
+                    f.write('%s,%s,%s\n' %
+                            (date, sid, rain))
+                for sid in metro_station_list:
+                    station_rain_info = metro_target.loc[metro_target.ST_NO == sid]
+                    rain = station_rain_info.iloc[:, -1].sum()
+                    f.write('%s,%s,%s\n' %
+                            (date, sid, rain))
 
     # Code for checking station completeness
     # tmp_df = pd.read_csv('./rain_20200501.csv',
@@ -119,41 +115,9 @@ def processRain2018(folder_path):
     #             print(sid)
 
 
-def processRainRaw(folder_path):
-    # df = pd.read_csv(folder_path + 'rain_20191201.csv', skipinitialspace=True)
-    # # df = pd.read_csv('./Rain/Rain_1998-2017/20171231.csv',
-    # #                  skipinitialspace=True)
-    # # df = pd.read_csv('./Rain/Rain_2018/AutoRain_201801.csv',
-    # #                  skipinitialspace=True, encoding='big5')
-    # # print(df.head())
-    # locations = pd.read_csv(
-    #     folder_path + 'rain_station.csv', skipinitialspace=True)
-
-    # locations = locations['station_id'].unique()
-    # actual_station = df['station_id'].unique()
-    # # actual_station = df['station'].unique()
-    # # actual_station = df['ID'].unique()
-    # print(locations.shape)
-    # print(actual_station.shape)
-
-    # count = 0
-    # # locations = [loc[:-1] for loc in locations]
-    # for sid in actual_station:
-    #     if sid not in locations:
-    #         # print(sid)
-    #         count += 1
-    # print(count)
-    pass
-
-
-def readRainIoT(dataset_root):
-    pass
-
-
 def main():
     # processRainHistory('./Rain/Rain_1998-2017.txt')
-    # processRain2018('./Rain/Rain_2018/')
-    processRainRaw('./Rain/')
+    processRain2018('./Rain/Rain_2018/')
 
 
 if __name__ == "__main__":

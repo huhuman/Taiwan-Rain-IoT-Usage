@@ -14,17 +14,21 @@ def isEarlierThanIMERG(year, month, day):
     return True
 
 
-def rain2input(root):
+def rain2inputCWB(root_before_2017, root_in_2018, root_after_2018):
     STATION_IDS = []
     with open('./station_ids.json') as json_file:
         STATION_IDS = json.load(json_file)
-    file_paths = sorted(os.listdir(root))
+    file_paths_before_2017 = sorted(os.listdir(root_before_2017))
+    file_paths_in_2018 = sorted(os.listdir(root_in_2018))
+    file_paths_after_2018 = sorted(os.listdir(root_after_2018))
+
     with open('input.csv', 'w+') as f:
         f.write('date')
         for sid in STATION_IDS:
             f.write(';' + sid)
         f.write('\n')
-        for file_path in file_paths:
+        # before 2017
+        for file_path in file_paths_before_2017:
             if not file_path.endswith('csv'):
                 continue
             date = file_path[:-4]
@@ -34,7 +38,8 @@ def rain2input(root):
             if isEarlierThanIMERG(year, month, day):
                 continue
             print(file_path)
-            df = pd.read_csv(root + file_path, skipinitialspace=True)
+            df = pd.read_csv(root_before_2017 +
+                             file_path, skipinitialspace=True)
             curr_ids = df.station.unique()
             rains = {}
             for sid in curr_ids:
@@ -43,6 +48,63 @@ def rain2input(root):
                 raw_rain = df.loc[df.station == sid]['PP01(mm)'].values
                 raw_rain = raw_rain[raw_rain > 0]
                 rains[sid] = sum(raw_rain)
+            f.write('%s/%s/%s' % (day, month, year))
+            for idx, sid in enumerate(STATION_IDS):
+                if sid not in rains.keys():
+                    f.write(';%s' % (-999))
+                else:
+                    f.write(';%s' % (rains[sid]))
+            f.write('\n')
+
+        # 2018
+        for file_path in file_paths_in_2018:
+            if not file_path.endswith('csv'):
+                continue
+            print(file_path)
+            df = pd.read_csv(root_in_2018 +
+                             file_path, skipinitialspace=True)
+            date = file_path[:-4]
+            year = date[:4]
+            month = date[5:7]
+            day = date[8:]
+            rains = {}
+            curr_ids = df.station.unique()
+            for sid in curr_ids:
+                '''
+                因為很多測站都只差一個0就，這邊猜測是誤紀，所以幫忙補０
+                '''
+                if sid+'0' not in STATION_IDS:
+                    continue
+                total_24H_rain = df.loc[df.station ==
+                                        sid].iloc[0, -1]
+                rains[sid+'0'] = total_24H_rain
+            f.write('%s/%s/%s' % (day, month, year))
+            for idx, sid in enumerate(STATION_IDS):
+                if sid not in rains.keys():
+                    f.write(';%s' % (-999))
+                else:
+                    f.write(';%s' % (rains[sid]))
+            f.write('\n')
+
+        # 2018/11-2020/08
+        for file_path in file_paths_after_2018:
+            if not file_path.endswith('csv'):
+                continue
+            print(file_path)
+            df = pd.read_csv(root_after_2018 +
+                             file_path, skipinitialspace=True)
+            date = file_path[5:-4]
+            year = date[:4]
+            month = date[4:6]
+            day = date[6:]
+            rains = {}
+            curr_ids = df.station_id.unique()
+            for sid in curr_ids:
+                if sid not in STATION_IDS:
+                    continue
+                total_24H_rain = df.loc[df.station_id ==
+                                        sid].iloc[-1, 8]  # last moment
+                rains[sid] = total_24H_rain
             f.write('%s/%s/%s' % (day, month, year))
             for idx, sid in enumerate(STATION_IDS):
                 if sid not in rains.keys():
@@ -86,6 +148,104 @@ def latlon2xy(lat, lon):
     return x, y
 
 
+def rain2inputAGR(root):
+    # stations
+    STATION_IDS = []
+    raw_stations = pd.read_csv(
+        './station_農委會_雨量感測器.csv', skipinitialspace=True)
+    with open('./location_agri.csv', 'w+') as f:
+        f.write('X;Y;Z;CODE;ERRP;NDEC;NAME\n')
+        for _, row in raw_stations.iterrows():
+            sid = row['station_id']
+            STATION_IDS.append(sid)
+            x = row['Longitude']
+            y = row['Latitude']
+            sname = row['station_name']
+            f.write('%s;%s;%s;%s;%s;%s;%s\n' %
+                    (x, y, 30, sid, 0.05, 0, sname))
+    print(STATION_IDS)
+    file_paths = sorted(os.listdir(root))
+    with open('input_agri.csv', 'w+') as f:
+        f.write('date')
+        for sid in STATION_IDS:
+            f.write(';' + sid)
+        f.write('\n')
+        # content
+        for file_path in file_paths:
+            if not file_path.endswith('csv'):
+                continue
+            print(file_path)
+            df = pd.read_csv(root + file_path, skipinitialspace=True)
+            date = file_path[18:-4]
+            year = date[:4]
+            month = date[4:6]
+            day = date[6:]
+            rains = {}
+            curr_ids = df.station_id.unique()
+            for sid in curr_ids:
+                if sid not in STATION_IDS:
+                    continue
+                raw_rain = df.loc[df.station_id == sid]['value'].values
+                raw_rain = raw_rain[raw_rain > 0]
+                rains[sid] = sum(raw_rain)
+            f.write('%s/%s/%s' % (day, month, year))
+            for idx, sid in enumerate(STATION_IDS):
+                if sid not in rains.keys():
+                    f.write(';%s' % (-999))
+                else:
+                    f.write(';%s' % (rains[sid]))
+            f.write('\n')
+
+
+def rain2inputMOEA(root):
+    # stations
+    STATION_IDS = []
+    raw_stations = pd.read_csv(
+        './station_水利署_雨量感測器.csv', skipinitialspace=True)
+    with open('./location_MOEA.csv', 'w+') as f:
+        f.write('X;Y;Z;CODE;ERRP;NDEC;NAME\n')
+        for _, row in raw_stations.iterrows():
+            sid = row['station_id']
+            STATION_IDS.append(sid)
+            x = row['Longitude']
+            y = row['Latitude']
+            sname = row['station_name']
+            f.write('%s;%s;%s;%s;%s;%s;%s\n' %
+                    (x, y, 30, sid, 0.05, 0, sname))
+    print(STATION_IDS)
+    file_paths = sorted(os.listdir(root))
+    with open('input_MOEA.csv', 'w+') as f:
+        f.write('date')
+        for sid in STATION_IDS:
+            f.write(';' + sid)
+        f.write('\n')
+        # content
+        for file_path in file_paths:
+            if not file_path.endswith('csv'):
+                continue
+            print(file_path)
+            df = pd.read_csv(root + file_path, skipinitialspace=True)
+            date = file_path[18:-4]
+            year = date[:4]
+            month = date[4:6]
+            day = date[6:]
+            rains = {}
+            curr_ids = df.station_id.unique()
+            for sid in curr_ids:
+                if sid not in STATION_IDS:
+                    continue
+                raw_rain = df.loc[df.station_id == sid]['value'].values
+                raw_rain = raw_rain[raw_rain > 0]
+                rains[sid] = sum(raw_rain)
+            f.write('%s/%s/%s' % (day, month, year))
+            for idx, sid in enumerate(STATION_IDS):
+                if sid not in rains.keys():
+                    f.write(';%s' % (-999))
+                else:
+                    f.write(';%s' % (rains[sid]))
+            f.write('\n')
+
+
 def parseStationInfoFromAPI():
     with open('./location.csv', 'w+') as f:
         f.write('X;Y;Z;CODE;ERRP;NDEC;NAME\n')
@@ -111,8 +271,11 @@ def parseStationInfoFromAPI():
 
 
 def main():
-    root = './Rain/Rain_1998-2017/'
-    rain2input(root)
+    rain2inputCWB(root_before_2017='./Rain/Rain_1998-2017/',
+                  root_in_2018='./Rain/Processed_Rain_2018/',
+                  root_after_2018='./Rain/Rain_2018-2020/')
+    # rain2inputMOEA(root='./MOEA/')
+    # rain2inputAGR(root='./Agriculture/')
     # parseStationInfoFromAPI()
 
 

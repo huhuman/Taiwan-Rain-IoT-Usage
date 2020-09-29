@@ -1,0 +1,2 @@
+"station_id","station_name","ciOrgname","OrgName","Code","Address","Latitude","Longitude","PQ_id","PQ_name","FullName","Description","ciCategory","CategoryInfos_Name","SIUnit"
+"a0a2ff1c-f8f7-4812-973e-fb913456e107","竹東圳第一站","農委會","臺灣新竹農田水利會",,,"24.690179","121.102897","a440a21f-9482-4e4f-b8c0-834aa6a011ab","雨量","竹東圳第一站_雨量","雨量","雨量感測器","1小時雨量","mm"
